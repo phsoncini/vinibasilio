@@ -1,0 +1,142 @@
+/*comment*/
+body{
+	background-color:transparent;
+	font-family:'Cinzel', serif;
+	margin: 20px 10% 20px 10%;
+	line-height:2;
+	}
+img#housepic{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+}
+img#Vini{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:auto;
+}
+p{
+	font-family: 'Lato', sans-serif;
+	text-transform:none;
+}
+p.task{
+	margin-left: 40px;
+}
+h1{
+	font-size:40pt;
+	text-align:center;
+}
+h3.description{
+	text-align:center;
+	font-weight:bold;
+}
+li{
+	list-style:none;
+	font-size: 3vh;
+}
+a{
+	text-decoration:none;
+	color:white;
+	padding: 2vw;
+	}
+a:hover.menu{
+	background-color:grey;
+	padding:20px;
+}
+nav{
+	width:100%;
+	background-color:black;
+	padding:5px;
+}
+ul{
+	display:flex;
+	justify-content:space-around;
+}
+ul#project-type{
+	flex-direction:column;
+}
+ul#project-type li{
+	font-size:inherit;
+}
+@media only screen and (max-width:500px){/*changed*/
+	ul{
+		flex-direction:column;
+	}
+	li{
+		margin:0;
+	}
+	a.menu{
+		display:block;
+	}
+}
+img{
+	max-width:100%;
+	height:auto;
+	}
+#architect{
+	text-align:center;
+	font-size:45pt;
+}
+footer{
+	width:100%;
+	background-color:black;
+	}
+.fa {
+    color: white;
+	margin:auto;
+	padding: 10pt;
+}
+iframe{
+	width:100%;
+	margin:auto;
+}
+input[type=text], textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 3px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+label {
+  padding: 12px 12px;
+  display: inline-block;
+}
+input[type=submit], input[type=reset] {/*changed*/
+  background-color: black;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin:5px;
+}
+.wrapper {
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 20px 20px;
+  }
+.col-a {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+.col-b {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+.row:after {/*changed*/
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .col-a, .col-b, input[type=submit], input[type=reset], img#housepic {
+    width: 100%;
+    margin-top: 0;
+  }
+	

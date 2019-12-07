@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<title>Contact Me</title>
+	<meta charset="utf-8">
+	<meta name="Contact Me" content="Vinicius Basilio Contact">
+	<meta name="author" content="Paulo Soncini">
+	<meta name="keywords" content="architect, portfolio, project, BIM">
+	<meta name="viewport" content="width=device-width , initial-scale=1.0">
+	<meta http-equiv="refresh" content="30">
+	<link rel="stylesheet" href="mystyles.css">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel:700|Lato&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<nav>
+			<ul>
+				<li><a class="menu" href="HomePage.html">Home</a></li>
+				<li><a class="menu" href="Aboutme.html">About Me</a></li>
+				<li><a class="menu" href="Experience.html">Experience</a></li>
+				<li><a class="menu" href="Contactme.html">Contact</a></li>
+			</ul>
+	</nav>
+<h1>Contact me</h1>
+
+<div class="wrapper">
+<form>
+	<div class="row">
+		<div class="col-a">
+			<label for="name">First Name</label>
+		</div>
+		<div class="col-b">
+			<input type="text" id="fname" name="firstname" placeholder="Insert your name">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-a">
+			<label for="name">Last Name</label>
+		</div>
+		<div class="col-b">
+			<input type="text" id="lname" name="lastname" placeholder="Insert your last name">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-a">
+			<label for="email">email</label>
+		</div>
+		<div class="col-b">
+			<input type="text" id="email" name="email" placeholder="Insert your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-a">
+			<label for="message">Message</label>
+		</div>
+		<div class="col-b">
+			<textarea id="message" name="message" placeholder="Type your message" style="height: 300px"></textarea>
+		</div>
+	</div>
+	<div class="row">
+		<input type="submit" value="Submit" onclick="messagereceived()">
+		<input type="reset" value="Reset">
+	</div>
+</form>
+</div>
+<br>
+<div id="map">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2382.0840966882065!2d-6.276416084310848!3d53.34175078275689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670c2683e72cf9%3A0x8be4221d0142e6f0!2sThomas%20Davis%20St%20S%2C%20The%20Liberties%2C%20Dublin!5e0!3m2!1sen!2sie!4v1574760826039!5m2!1sen!2sie" width="600" height="450" frameborder="0" style="border:0; align:"center"; "allowfullscreen="""></iframe>
+</div>
+<div>
+<footer class="icon">
+
+	<a href="https://www.facebook.com/vinicius.basilio.792"><i class="fa fa-facebook-square fa-2x"></i></a>
+	<a href="https://www.instagram.com/viniciuscbasilio/"><i class="fa fa-instagram fa-2x"></i></a>
+	<a href="https://www.linkedin.com/in/viniciuscbasilio/"><i class="fa fa-linkedin fa-2x"></i></a>
+
+</footer>
+<script>
+
+	function messagereceived(){
+	alert("Thank you for your message, I'll get back to you shortly");
+	}
+
+</script>
+</div>
+</body>
+
+</html>
